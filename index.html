@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+       <nav class="navbar">
+    <h2 class="logo">MANI.</h2>
+
+    <button class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+        ☰
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero-content">
+            <p>Hello, I'm Mohsen Nikpey</p>
+
+            <img src="profile.jpg" alt="Mohsen Nikpey Web Developer">
+
+            <h1>
+                I build modern and responsive websites.
+            </h1>
+            <p>
+                I'm a web developer focused on creating clean, responsive,
+                and user-friendly websites with HTml, CSS, and JavaScript.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects">View My Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm learning HTML, CSS, and JavaScript.</p>
+        </section>
+        <section id="skills">
+            <h2>My skills</h2>
+
+            <div class="skills-container">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <p>semantic and structured web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <p>responsive layouts and modern styling.</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>interactive Web features and functionality.</p>
+
+                </div>
+
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Programming fundamentals and problem solving.</p>
+                </div>
+            </div>
+        </section>
+
+       <section id="projects">
+    <h2>My Projects</h2>
+    <p class="projects-intro">
+        Here are some projects I'm building as I learn.
+    </p>
+
+    <div class="project-container">
+
+        <article class="project-card">
+            <img src="project-1.jpg" alt="perview of my personal website Project">
+            <span>01</span>
+            <h3>Personal Website</h3>
+            <p>A personal website built with HTML and CSS.</p>
+            <a href="#home">Back to Home</a>
+        </article>
+
+        <article class="project-card">
+            <img src="project-2.jpg" alt="perview of modern landing page">
+            <span>02</span>
+            <h3>Modern Landing Page</h3>
+            <p>A modern landing page with a clean design.</p>
+            <a href="#home">Back to Home</a>
+        </article>
+
+        <article class="project-card">
+            <img src="project-3.jpg" alt="perview of JavaScript project">
+            <span>03</span>
+            <h3>JavaScript Project</h3>
+            <p>An interactive project built with JavaScript.</p>
+            <a href="#home">Back to Home</a>
+        </article>
+
+    </div>
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a question or want to work together?</p>
+
+    <form 
+    id="contact-form"
+    action="https://api.web3forms.com/submit"
+    method="post"
+    >
+    <input
+        type="hidden"
+        name="access_key"
+        value="feb9f66e-38d7-4195-970e-7ed22e6a9cc8"
+     >
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name"required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email"required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <p id="form-status" role="status"></p>
+    </form>
+</section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mani. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
