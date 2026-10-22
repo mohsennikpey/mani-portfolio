@@ -70,6 +70,7 @@ nav a:hover {
     width: 200px;
     height: 200px;
     object-fit: cover;
+    object-position: center 40%;
     border-radius: 50%;
     border: 3px solid #60a5fa;
     margin-bottom: 10px;
