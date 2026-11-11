@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohsennikpey.github.io/mani-portfolio/sitemap.xml
