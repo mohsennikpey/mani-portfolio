@@ -470,3 +470,13 @@ footer {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+/* Keyboard Accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 3px solid #fbbf24;
+    outline-offset: 3px;
+}
